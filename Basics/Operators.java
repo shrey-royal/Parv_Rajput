@@ -38,11 +38,21 @@ public class Operators {
         // System.out.println("(a<=b) || (a==b) : " + ((a<=b) || (a==b)));
         // System.out.println("!(a<b) : " + !(a<b));
 
-        System.out.println((a & b) + "\n" + (a | b));
+        // System.out.println((a & b) + "\n" + (a | b));
         //45 3
         //678 677
         //223 567
         //1 45
+
+        System.out.println("-> " + (a >> b));
+        //xor, left shift, right shift
+        //17890 5
+        //234 3
+        //456 2
+        //4 1
+        //56478 8
+        //345 5
+        
 
         sc.close();
     }
